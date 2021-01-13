@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rule of Thirds</title>
+
+<link rel="stylesheet" href="styles.css" type="text/css"  />
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico"  />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<style type="text/css">
+	#MenuBar1 li #composition {
+		background-color: #E6E0A8;
+		color: #FFF;
+	}
+	
+	#one, #two {
+		margin-bottom: 0px;
+	}
+	
+	div.caption {
+	width: 294px;
+	margin: 5px 0px 30px 0px;
+	float: left;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div id="body" class="container">
+		<div id="header" class="container"></div>
+		<div class="container" id="nav">
+		  <ul id="MenuBar1" class="MenuBarVertical">
+		    <li><a href="index.html" id="home">Home</a></li>
+		    <li><a href="about.html" id="about">About</a></li>
+            <li><a href="composition.html"  class="MenuBarItemSubmenu" id="composition">Composition</a>
+           	  	<ul>
+               		<li><a href="dof.html">Depth of field</a></li>
+                    <li><a href="thirds.html">Rule of thirds</a></li>
+                	<li><a href="perspective.html">Perspective</a></li>
+            	</ul>
+            </li>
+            <li><a href="tech.html"  class="MenuBarItemSubmenu" id="tech">Technical</a>
+            	<ul>
+                	<li><a href="cameras.html">Camera types</a></li>
+                    <li><a href="modes.html">Camera modes</a></li>
+               	  	<li><a href="aperture.html">Aperture</a></li>
+                    <li><a href="shutter.html" >Shutter speed</a></li>
+                </ul>
+            </li>
+		    <li><a href="contact.html" id="contact">Contact</a></li>
+	      </ul>
+		</div>
+		<div class="container" id="content">
+        	<h1>Rule of Thirds</h1>
+            <p>The rule of thirds is a compositional tool photographers use to place objects in a photo. It uses a 3 by 3 grid and objects are placed using this 	
+            grid. Important objects will be placed on one or more of the 4 intersection points, and the horizon will be lined up with one of the two vertical 
+            lines.</p>
+            
+            <img src="images/photos/intersection.jpg" alt="Rule of thirds intersection points" class="photo" id="one" />
+            <img src="images/photos/horizon.jpg" alt="Rule of thirds horizon lines" class="photo"  id="two" />
+            <div class="caption"><p>Intersection points</p></div>
+            <div class="caption"><p>Horizon lines</p></div>
+        </div>
+		<div class="container" id="footer">
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="composition.html">Composition</a></li>
+                <li><a href="tech.html">Technical</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Developed by Micah Gilbertson &copy; all rights reserved</p>
+        </div>
+	</div>
+    
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

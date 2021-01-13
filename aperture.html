@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Aperture</title>
+
+<link rel="stylesheet" href="styles.css" type="text/css"  />
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico"  />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<style type="text/css">
+	#MenuBar1 li #tech {
+		background-color: #E6E0A8;
+		color: #FFF;
+	}
+</style>
+</head>
+
+<body>
+<div id="body" class="container">
+		<div id="header" class="container"></div>
+		<div class="container" id="nav">
+		  <ul id="MenuBar1" class="MenuBarVertical">
+		    <li><a href="index.html" id="home">Home</a></li>
+		    <li><a href="about.html" id="about">About</a></li>
+            <li><a href="composition.html"  class="MenuBarItemSubmenu" id="composition">Composition</a>
+           	  	<ul>
+               		<li><a href="dof.html">Depth of field</a></li>
+                    <li><a href="thirds.html">Rule of thirds</a></li>
+                	<li><a href="perspective.html">Perspective</a></li>
+            	</ul>
+            </li>
+            <li><a href="tech.html"  class="MenuBarItemSubmenu" id="tech">Technical</a>
+            	<ul>
+                	<li><a href="cameras.html">Camera types</a></li>
+                    <li><a href="modes.html">Camera modes</a></li>
+               	  	<li><a href="aperture.html">Aperture</a></li>
+                    <li><a href="shutter.html" >Shutter speed</a></li>
+                </ul>
+            </li>
+		    <li><a href="contact.html" id="contact">Contact</a></li>
+	      </ul>
+		</div>
+		<div class="container" id="content">
+        	<h1>Aperture</h1>
+            
+          <p>Aperture, sometimes called F-Stops, is the opening of your lens that controls how much light can get through. Your aperture works much like the eye,
+            it gets wider to let in more light and smaller to let in less.</p>
+
+			<p>Your aperture is measured in stops. One full stop will either double the amount of light or cut it in half. The smaller the number, the more 	
+               open your aperture is and more light can get in. This may sound backwards, and it takes many people a while to get this straight. If you look at 
+               f-stops as fractions, which is what they really are, this concept gets a lot easier to understand. Think of it like this, instead of writing 1/5 we write f/5.</p>
+				
+          <img src="images/aperture.gif" alt="" class="image" />
+                
+                
+		  <p>What does the aperture do besides control how much light gets in?<br />
+		  Along with light control, aperture controls <a href="dof.html">depth of field</a>. The bigger the opening (smaller the number) the less depth you have.</p>
+        </div>
+		<div class="container" id="footer">
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="composition.html">Composition</a></li>
+                <li><a href="tech.html">Technical</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Developed by Micah Gilbertson &copy; all rights reserved</p>
+        </div>
+	</div>
+    
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

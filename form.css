@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+form {
+	margin: 20px 0px;
+}
+
+fieldset {
+	border: 0px;
+	width: 40%;
+}
+
+fieldset.option {
+	border: 1px groove #CCC;
+	display: block;
+	margin-top: 20px;
+	padding: 8px;
+	width: 90%;
+}
+
+fieldset.option label.radioLabel {
+	width: 100%;
+}
+
+fieldset.option input {
+	float: right;
+	width: 50%;
+}
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	margin: 10px 0px;
+	width: 20%;
+}
+
+input {
+	float: left;
+	font-size: 0.8em;
+	margin: 10px 0px;
+	width: 75%;
+}
+
+textarea {
+	display: block;
+	float: left;
+	clear: both;
+	height: 150px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.commentsLabel {
+	display: block;
+	margin: 20px 0px 0px 0px;
+	width: 30%;
+}
+
+input.button {
+	width: 50%;
+	display: inline;
+	margin: 20px 0px;
+}
+
+input:focus:valid {
+	background:#DFFFDE url(images/checkmark.png) bottom right no-repeat;
+	background-size:contain;
+}
+
+input:focus:invalid {
+	background: #E9CBCC url(images/xmark.png) bottom right no-repeat;
+	background-size: contain;
+}
+
+#formP {
+	font-size: 12px;
+	margin: 10px 0px;
+	padding: 0px;

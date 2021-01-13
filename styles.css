@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* Photography Basics styles */
+
+/*Body*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*background: #b8dfaf;*/
+	background: url(images/background.jpg) top right no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding:0px;
+}
+
+#body {
+	background-color: #F0F7FF;
+	margin: 0px auto;
+	height: auto;
+	width: 1000px;
+}
+
+div.container {
+	display: block;
+	font-size: 14px;
+	font-style: normal;
+	padding: 4px;
+}
+
+/*Text*/
+
+p {
+	clear: both;
+	display: block;
+	margin: 10px 10px 0px 0px;
+	font-size: 15px;	
+}
+
+sup {
+	font-size: 10px;
+}
+
+/*Header tags*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, sans-serif;
+	margin: 0px 0px 10px 0px;
+	padding:0px;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 26px;
+	}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+
+/*Links*/
+
+a:link, a:visited {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+	text-decoration: none;	
+}
+
+a:hover, a:active {
+	color: #9F9F9F;	
+}
+
+p a:link, p a:visited {
+	text-decoration: underline;	
+}
+
+/*Header*/
+
+#header {
+	background: url(images/header3.png) no-repeat top;
+	background-size: cover;
+	border-bottom: 1px outset black;
+	margin: 0px auto 20px auto;
+	height: 120px;
+	width: 992px;
+}
+
+/*Navigation*/
+
+#nav {
+	float: left;
+	height: 200px;
+	width: 168px;
+}
+
+ul.extraNav {
+	list-style: disc inside url(images/camera.gif);
+	padding: 0;
+}
+
+ul.extraNav li {
+	margin: 10px 0px;
+	padding-left: 10px;	
+}
+
+/*Content*/
+
+#content {
+	float: right;
+	height: auto;
+	margin-bottom: 20px;
+	width: 800px;
+}
+
+div.caption p {
+	font-size: 12px;
+}
+
+/*Images*/
+
+img {
+	margin: 20px 0px;
+}
+
+img.photo {
+	border: 1px solid #000;
+	float: left;
+	margin-right: 10px;
+	height: 190px;
+}
+
+img.image {
+	width: 400px;
+}
+
+/*Footer*/
+
+#footer {
+	border-top: 1px outset black;
+	clear: both;
+	margin: 20px auto 0px auto;
+	height: 30px;
+	width: 992px;
+}
+
+#footer ul {
+	display:inline;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+#footer ul li {
+	display:inline-block;
+	margin: 0px 20px;
+	padding: 0px;
+}
+
+#footer p {
+	float: right;
+	font-family:"Lucida Sans Typewriter","Courier New", monospace;
+	font-size: 12px;
+}
